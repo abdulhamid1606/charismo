@@ -1,5 +1,6 @@
 <template>
-    <div class="container">
+    <div class="header_parent">
+        <div class="container">
         <div class="header">
             <div class="header_left">
                 <img src="../assets/images/Charismo-logo-3-e1591187795482 1 (3).png" alt="">
@@ -23,6 +24,7 @@
             </div>
         </div>
     </div>
+    </div>
 </template>
 <script>
 export default {
@@ -30,17 +32,24 @@ export default {
 }
 </script>
 <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container {
     max-width: 1220px;
     margin: 0 auto;
     padding: 0 10px;
 }
+.header_parent{
+    background: linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
 
+}
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 26px;
 }
 
 .header_right {
@@ -61,6 +70,14 @@ export default {
     text-align: left;
     color: rgba(48, 69, 96, 1);
     text-decoration: none;
+}
+
+.header_right ul li a:hover {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: rgba(35, 137, 255, 1);
 }
 
 .btn {
