@@ -9,6 +9,6 @@
 </script>
 
 
-<style lang="">
+<style>
     
 </style>

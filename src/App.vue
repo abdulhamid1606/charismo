@@ -1,5 +1,6 @@
 <script setup>
     import about from './components/about.vue'
+    import Prinsipl from './components/prinsipl.vue'
 </script>
 
 <template>
@@ -7,9 +8,7 @@
     <about />
   </header>
 
-  <main>
-    <TheWelcome />
-  </main>
+
 </template>
 
 <style scoped>
