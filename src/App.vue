@@ -1,10 +1,11 @@
 <script setup>
-    import about from './components/about.vue'
+    import Header from './components/Header.vue'
+
 </script>
 
 <template>
   <header>
-    <about />
+    <Header />    
   </header>
 
   <main>
